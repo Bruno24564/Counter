@@ -1,10 +1,10 @@
-let box = document.querySelector(".counterInput");
+let box = document.querySelector("#counterInput");
 
 function decrement() {
-    if (box.value <= 1) {
-        counter.value = 1;
+    if (box.value <= 0) {
+        box.value = 0;
     } else {
-        box,value = parseInt(box.value) -1;
+        box.value = parseInt(box.value) -1;
     }
 }
 

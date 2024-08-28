@@ -2,21 +2,23 @@
     margin: 0%;
     padding: 0%;
 }
+
 .container{
 height: 100vh;
-background-color: gray;
+background: black;
+
 display: flex;
 align-items: center;
 justify-content: center;
+background-image: url(Background 1.png)
 }
 .box{
     width: 200px;
-    height: 30px;
+    height: 50px;
     padding: 20px;
     display: inline-flex;
-    overflow: hidden;
     border-radius: center;
-    background-color: black; 
+    background-color: transparent; 
     border-radius: 20px;   
 }
 .btn{
@@ -28,17 +30,19 @@ justify-content: center;
     color: white;
     width: 30px;
     height: 30px;
-    font-size: 30px;
+    font-size: 50px;
     border: none;
  
     
 }
-#counterinput{
+#counterInput{
     font-size: 50px;
     font-family: sans-serif;
     width: 100%;
-    color:black;
+    color:white;
     background: 0 0;
-    margin: 0 20px;
-    border: 2px solid black;
+    margin: 0px;
+    text-align: center;
+    border: none;
+    
 }
